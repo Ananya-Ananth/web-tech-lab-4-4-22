@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pAGE2</title>
+</head>
+
+<body>
+    <table style="border:1px solid black;">
+        <u>colspan:</u>
+        <tr>
+            <th colspan="2">A</th>
+            <th>B</th>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <td>44</td>
+        </tr>
+    </table><br>
+    <table>
+        <u>rowspan:</u>
+        <tr>
+            <th rowspan="2">A</th>
+            <th>B</th>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <!-- <td>3</td> -->
+            <!-- <td>4</td> -->
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>22</td>
+            <td>33</td>
+            <!-- <td>44</td> -->
+        </tr>
+    </table>
+</body>
+
+</html>
